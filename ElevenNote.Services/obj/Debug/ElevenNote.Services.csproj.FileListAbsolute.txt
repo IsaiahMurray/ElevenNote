@@ -1,0 +1,15 @@
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\ElevenNote.Services.dll.config
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\ElevenNote.Services.dll
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\ElevenNote.Services.pdb
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\EntityFramework.dll
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\EntityFramework.xml
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\obj\Debug\ElevenNote.Services.csprojAssemblyReference.cache
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CopyComplete
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\obj\Debug\ElevenNote.Services.dll
+C:\Users\murra\Desktop\Eleven Fifty Projects\DotNetProjects\ElevenNote.WebMVC\ElevenNote.Services\obj\Debug\ElevenNote.Services.pdb
