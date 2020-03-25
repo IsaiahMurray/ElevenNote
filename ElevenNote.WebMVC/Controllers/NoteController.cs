@@ -13,13 +13,19 @@ namespace ElevenNote.WebMVC.Controllers
     {
         // GET: Note
         [Authorize]
-        public ActionResult Index()
+        public ActionResult Index() //This method displays all the notes for the current user. Notice the methods and services that it calls upon.
         {
-            var userId = Guid.Parse(User.Identity.GetUserId());
-            var service = new NoteService(userId);
+            var service = CreateNoteService();
             var model = service.GetNotes();
 
             return View(model);
+        }
+
+        private NoteService CreateNoteService()
+        {
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new NoteService(userId);
+            return service;
         }
 
         //GET
@@ -30,19 +36,21 @@ namespace ElevenNote.WebMVC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(NoteCreate model)
+        public ActionResult Create(NoteCreate model) //This method makes sure the model is valid, grabs the current userId, calls on CreateNote, and returns the user back to the index view.
         {
-            if (!ModelState.IsValid)
+            if (!ModelState.IsValid) return View(model);
+
+            var service = CreateNoteService();
+
+            if (service.CreateNote(model))
             {
-                return View(model);
-            }
+                TempData["SaveResult"] = "Your note was created.";
+                return RedirectToAction("Index");
+            };
 
-            var userId = Guid.Parse(User.Identity.GetUserId());
-            var service = new NoteService(userId);
+            ModelState.AddModelError("", "Note could not be created.");
 
-            service.CreateNote(model);
-
-            return RedirectToAction("Index");
+            return View(model);
         }
     }
 }
